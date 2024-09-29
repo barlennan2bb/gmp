@@ -40,7 +40,8 @@ export default function ContactUs() {
     formData.append("msg", String(values.msg));
     axios({
       method: "post",
-      url: "http://44.239.43.181:8083/LiftAndShift/post",
+      //url: "http://44.239.43.181:8083/LiftAndShift/post",
+      url: "https://76h86gyo24.execute-api.us-west-2.amazonaws.com/Prod/contactUs",
       data: formData,
       headers: { "Content-Type": "application/json" },
     }).then(function (response) {
