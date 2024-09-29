@@ -14,11 +14,7 @@ const AboutUs = () => {
   alt='Logo' 
   />
 		<h1>About Us</h1>
-			<h2>Our People:</h2>
-			<ul>
-			<li>Roy Cook, Chief Executive Officer</li>
-			</ul>
-			<br />
+	
 		<h2>Our Address:</h2>
 		<ul>
 			<li>Global Microwave Parts, LLC</li>
